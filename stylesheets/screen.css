@@ -98,6 +98,10 @@ body {
 
 /* @end */
 
+#footer .container { padding: 0 }
+.nav-pager { font-size: 8px; line-height: 8px; list-style: none; margin: 0; overflow: hidden; position: fixed; z-index: 100; }
+.nav-pager a { padding: 1px 10px; text-decoration: none; }
+.nav-pager .current a { background: #FF9; color: #000; }
 .nav-prev-next {display: none;}
 ul, ol {
   margin-top: 0.5em;

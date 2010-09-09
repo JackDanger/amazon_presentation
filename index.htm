@@ -107,14 +107,72 @@
           <br />
           <br />
           <h3>III. Build Prototypes</h3>
+          <h4>i.e.: Try before you buy</h4>
         </div>
         <div class="slide">
           <h2>III. Build Prototypes</h2>
           <p>
-            <code>
-              
-            </code>
+            Tracking user clicks (jQuery):
+            <br />
+            <pre><code>
+  $("a").click(function(){
+    $.post('/record_clicks',{id:this.id})
+  })
+            </code></pre>
           </p>
+        </div>
+        <div class="slide">
+          <h2>III. Build Prototypes</h2>
+          <p>
+            parsing Craigslist (Ruby):
+            <br />
+            <pre><code>
+  (Hpricot(
+    open("http://seattle.craigslist.com").read
+    )/ '.listing').each do |listing|
+      puts listing.content
+    end
+            </code></pre>
+          </p>
+        </div>
+        <div class="slide">
+          <h2>III. Build Prototypes</h2>
+          <p>
+            Full web server (node.js)
+            <br />
+            <pre><code>
+  require('http').createServer(function(q,r){
+    r.writeHead(200, {'Content-Type': 'text/plain'});
+    r.end('Hello World\n');
+  }).listen(8124, "localhost");
+            </code></pre>
+          </p>
+        </div>
+        <div class="slide">
+          <h2>III. Build Prototypes</h2>
+          <p>
+            Full web server (sinatra.rb)
+            <br />
+            <pre>
+  require 'sinatra'
+  get('/'){ "Hello World" }
+            </pre>
+          </p>
+        </div>
+        <div class="slide">
+          <br />
+          <br />
+          <h3>Build Prototypes</h3>
+        </div>
+        <div class="slide">
+          <h2>Jack Danger Canty</h2>
+          <ul>
+           <li>Dave's Friend</li>
+           <li>Engineer for Cloops.com</li>
+           <li>Full-time office nomad</li>
+           <li>http://jackcanty.com</li>
+          </ul>
+         
         </div>
       </div>
     </div>
