@@ -99,8 +99,8 @@ body {
 /* @end */
 
 .nav-prev-next {display: none;}
-ul {
+ul, ol {
   margin-top: 0.5em;
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 h3 { font-size: 1.6em;}
