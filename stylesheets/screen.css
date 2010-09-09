@@ -26,7 +26,7 @@ blockquote, q {	quotes: "" ""; }
 body {
   background: #1a1f1e url(../images/structure/bg-body.png);
   color: #e3dfba;
-	font: 24px/36px Helvetica, Arial, Sans-Serif;
+	font: 28pt Helvetica, Arial, Sans-Serif;
 }
 
 	/* @group -headers */
@@ -94,7 +94,13 @@ body {
   .nav-pager .current a, .nav-prev-next a:hover { background: #6cbdb5; color: #fff; }
   .nav-prev-next { right: 20px; top: 0; }
   .nav-prev-next li { margin-left: 10px; }
-  .nav-prev-next {display: none;}
 	/* @end */
 
 /* @end */
+
+.nav-prev-next {display: none;}
+ul {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+h3 { font-size: 1.6em;}
