@@ -94,6 +94,7 @@ body {
   .nav-pager .current a, .nav-prev-next a:hover { background: #6cbdb5; color: #fff; }
   .nav-prev-next { right: 20px; top: 0; }
   .nav-prev-next li { margin-left: 10px; }
+  .nav-prev-next {display: none;}
 	/* @end */
 
 /* @end */
